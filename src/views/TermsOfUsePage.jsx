@@ -1,3 +1,5 @@
+import images from "../assets/images";
+
 const TermsOfUsePage = () => {
   return (
     <div className="text-xl text-justify mx-6 md:mx-8 lg:mx-[150px] xl:mx-[250px]">
@@ -8,12 +10,12 @@ const TermsOfUsePage = () => {
       </h3>
       <div className="md:flex md:justify-center md:gap-x-5 mb-12">
         <img
-          src="/src/assets/terms-of-use1.png"
+          src={images.terms1}
           alt=""
           className="md:w-[300px] md:h-[250px] object-cover lg:w-[500px] lg:h-[450px]"
         />
         <img
-          src="/src/assets/Terms-of-Use.jpg"
+          src={images.terms2}
           alt=""
           className="md:w-[300px] md:h-[250px] object-cover lg:w-[500px] lg:h-[450px]"
         />

@@ -5,6 +5,9 @@ import rhouse from "../assets/rustic-house.jpg";
 import rinside from "../assets/rustic-inside.jpg";
 import hike from "../assets/hike.jpg";
 import ciclying from "../assets/ciclying.jpg";
+import stars from "../assets/stars.png";
+import terms1 from "../assets/terms-1.png";
+import terms2 from "../assets/terms-2.jpg";
 
 export default {
   montain1,
@@ -14,4 +17,7 @@ export default {
   rinside,
   hike,
   ciclying,
+  stars,
+  terms1,
+  terms2,
 };
