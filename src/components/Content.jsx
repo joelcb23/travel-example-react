@@ -1,4 +1,3 @@
-import React from "react";
 import images from "../assets/images";
 
 function Content() {
@@ -77,7 +76,7 @@ function Content() {
         </div>
         <div className="order-first flex p-5 md:order-none md:w-1/2 md:justify-end md:items-end md:mr-[-150px] lg:mb-[-75px]">
           <img
-            src="src/assets/montain-3.jpg"
+            src={images.montain3}
             alt="montain"
             className="lg:max-w-[400px]"
           />
