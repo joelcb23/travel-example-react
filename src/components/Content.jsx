@@ -4,7 +4,7 @@ function Content() {
   const secTitle = "text-4xl mb-6 leading-normal";
   const secContent = "text-gray-700 leading-8";
   return (
-    <div className="mx-6 md:mx-8 lg:mx-[150px] xl:mx-[250px]">
+    <>
       <section className="flex flex-col gap-y-5 my-10 md:flex-row md:gap-x-8 md:my-40">
         <div className="flex flex-col gap-y-7 md:w-1/2">
           <h3 className={secTitle}>Viajes y Ocio</h3>
@@ -17,7 +17,9 @@ function Content() {
             omnis fugit cumque, voluptatem eveniet necessitatibus! Excepturi.
           </p>
           <div className="text-right text-sky-500">
-            <a href="">Mas informacion...</a>
+            <a href="/" className="hover:underline">
+              Mas informacion...
+            </a>
           </div>
         </div>
         <div className="flex p-5 md:w-1/2 md:m-auto md:items-center lg:p-0">
@@ -113,12 +115,14 @@ function Content() {
               nostrum possimus amet nemo.
             </p>
             <div className="text-sky-500 mt-10">
-              <a href="">Mas informacion...</a>
+              <a href="/" className="hover:underline">
+                Mas informacion...
+              </a>
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 

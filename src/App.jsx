@@ -10,8 +10,8 @@ import ContactInfo from "./components/ContactInfo";
 function App() {
   return (
     <BrowserRouter>
-      <div className="font-[Poppins]">
-        <NavBar />
+      <NavBar />
+      <main className="font-[Poppins] max-w-7xl mx-auto py-10 px-2 md:px-0">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
@@ -19,8 +19,8 @@ function App() {
           <Route path="/rooms" element={<RoomsPage />} />
           <Route path="/terms" element={<TermsOfUsePage />} />
         </Routes>
-        <ContactInfo />
-      </div>
+      </main>
+      <ContactInfo />
     </BrowserRouter>
   );
 }
