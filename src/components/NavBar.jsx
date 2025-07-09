@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { FaBars, FaWindowClose } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
+import images from "../assets/images";
 
 function NavBar() {
   let [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="navbar">
       <h4 className="font-bold cursor-pointer">
-        <Link to="/">LOGO</Link>
+        <Link to="/" className="flex items-center">
+          <img src={images.logo} alt="logo" className="w-8 md:w-12" />
+          <p>TravelAgency</p>
+        </Link>
       </h4>
       <button
         onClick={(e) => {
@@ -28,28 +32,28 @@ function NavBar() {
         }`}
       >
         <li>
-          <NavLink to="/" className={`p-5`}>
-            Inicio
+          <NavLink to="/" className={`p-5 hover:bg-gray-200`}>
+            Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" className={`p-5`}>
-            Acerca de
+          <NavLink to="/destinations" className={`p-5 hover:bg-gray-200`}>
+            Destinations
           </NavLink>
         </li>
         <li>
-          <NavLink to="/destinations" className={`p-5`}>
-            Destinos
+          <NavLink to="/rooms" className={`p-5 hover:bg-gray-200`}>
+            Rooms
           </NavLink>
         </li>
         <li>
-          <NavLink to="/rooms" className={`p-5`}>
-            Habitaciones
+          <NavLink to="/terms" className={`p-5 hover:bg-gray-200`}>
+            Legal Notice
           </NavLink>
         </li>
         <li>
-          <NavLink to="/terms" className={`p-5`}>
-            Aviso legal
+          <NavLink to="/about" className={`p-5 hover:bg-gray-200`}>
+            About us
           </NavLink>
         </li>
       </ul>

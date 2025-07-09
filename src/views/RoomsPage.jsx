@@ -90,7 +90,7 @@ const RoomsPage = () => {
   return (
     <>
       <h1 className="text-4xl text-center font-bold mb-10 md:text-start">
-        Elige la habitacion que se adapte a tus deseos
+        Choose the room that suits your wishes
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {rooms.map(({ id, name, price, image }) => (

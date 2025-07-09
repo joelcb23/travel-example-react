@@ -7,7 +7,7 @@ function Content() {
     <>
       <section className="flex flex-col gap-y-5 my-10 md:flex-row md:gap-x-8 md:my-40">
         <div className="flex flex-col gap-y-7 md:w-1/2">
-          <h3 className={secTitle}>Viajes y Ocio</h3>
+          <h3 className={secTitle}>Travels around the world</h3>
           <p className={secContent}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
             incidunt laboriosam ipsa pariatur, quod animi libero officiis
@@ -18,7 +18,7 @@ function Content() {
           </p>
           <div className="text-right text-sky-500">
             <a href="/" className="hover:underline">
-              Mas informacion...
+              More information...
             </a>
           </div>
         </div>
@@ -28,12 +28,12 @@ function Content() {
       </section>
       <section className="flex flex-col gap-y-5 my-10 md:flex-row md:items-center md:gap-x-8 md:my-40">
         <div className="my-5 flex flex-col justify-between gap-y-10 md:w-1/4">
-          <h3 className={secTitle}>Escenario final y objetivos de visita</h3>
+          <h3 className={secTitle}>The best destinations and hotels</h3>
           <p className={secContent}>
-            Disfruta de los fantasticos lugares que el pais ofrece.
+            Enjoy the fantastic places that we offers.
           </p>
           <div className="text-sky-500">
-            <a href="">Aprenda mas</a>
+            <a href="">See more</a>
           </div>
         </div>
         <p className={`my-5 md:w-1/4  ${secContent}`}>
@@ -57,14 +57,12 @@ function Content() {
         </div>
       </section>
       <section
-        className={`bg-[url('/src/assets/montain.jpg')] bg-no-repeat bg-cover flex flex-col gap-y-4 mx-[-2rem] my-10 py-5 md:flex-row-reverse md:my-40 md:py-20 lg:py-40 lg:px-20`}
+        className={`w-full bg-[url('/src/assets/montain.jpg')] bg-no-repeat bg-cover flex flex-col gap-y-4 md:mx-[-2rem] my-10 py-5 md:flex-row-reverse md:my-40 md:py-20 lg:py-40 lg:px-20`}
       >
         <div className="bg-white mx-6 py-5 pt-10 md:w-1/2 md:mx-8 md:pl-[150px] md:pr-[50px]">
-          <h3 className={`text-center ${secTitle}`}>
-            Para los amantes de la montaña
-          </h3>
+          <h3 className={`text-center ${secTitle}`}>For a better experience</h3>
           <p className={`text-center text-xl my-5 ${secContent}`}>
-            ¡Camina, sube y disfruta de la manifica naturaleza!
+            Walk, go up and enjoy the manification of a nature!
           </p>
           <p className={`text-center ${secContent}`}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
@@ -91,8 +89,7 @@ function Content() {
         <div className="flex flex-col justify-content items-center gap-y-4 md:flex-row md:gap-x-8 md:w-3/4">
           <div className="md:w-1/3">
             <h3 className={secTitle}>
-              Para los espiritu libre, los mejores lugares para caminar y
-              escalar
+              For free spirit, the best places to walk and climb
             </h3>
             <p className={secContent}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
@@ -116,7 +113,7 @@ function Content() {
             </p>
             <div className="text-sky-500 mt-10">
               <a href="/" className="hover:underline">
-                Mas informacion...
+                More information...
               </a>
             </div>
           </div>

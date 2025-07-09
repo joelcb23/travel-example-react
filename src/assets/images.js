@@ -8,6 +8,7 @@ import ciclying from "../assets/ciclying.jpg";
 import stars from "../assets/stars.png";
 import terms1 from "../assets/terms-1.png";
 import terms2 from "../assets/terms-2.jpg";
+import logo from "../assets/travel-agency.png";
 
 export default {
   montain1,
@@ -20,4 +21,5 @@ export default {
   stars,
   terms1,
   terms2,
+  logo,
 };

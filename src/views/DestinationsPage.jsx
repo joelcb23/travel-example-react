@@ -69,9 +69,9 @@ const DestinationsPage = () => {
     <>
       <div className="my-10 text-center md:text-start">
         <h2 className="text-4xl font-bold mb-5">
-          ¡Puedes encontrar los mejores destinos con nosotros!
+          You can find the best destinations with us!
         </h2>
-        <p className="text-xl">¡Viaja a cualquier parte del mundo!</p>
+        <p className="text-xl">Travel around the world!</p>
       </div>
       <div className="text-xl flex flex-col gap-y-10">
         {destinations.map(({ id, name, country, image }) => (

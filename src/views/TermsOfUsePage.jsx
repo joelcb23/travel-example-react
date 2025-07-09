@@ -17,7 +17,7 @@ const TermsOfUsePage = () => {
           className="md:w-[300px] md:h-[250px] object-cover lg:w-[500px] lg:h-[450px]"
         />
       </div>
-      <h1 className="text-4xl text-center font-bold mb-6">Terminos de uso</h1>
+      <h1 className="text-4xl text-center font-bold mb-6">Terms of Use</h1>
       <h3 className="text-xl text-center mb-12 md:text-start">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </h3>

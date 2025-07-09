@@ -1,11 +1,11 @@
 const AboutPage = () => {
   return (
     <>
-      <h1 className="text-4xl text-center font-bold mb-6">Sobre nosotros</h1>
+      <h1 className="text-4xl text-center font-bold mb-6">About Us</h1>
       <div className="flex justify-evenly items-center my-20">
         <h2 className="md:w-2/3 text-3xl text-center font-semibold py-5 leading-normal">
-          Con nosotros vuelve tus sueños realidad, viaja por el mundo y crea
-          hermosos recuerdos.
+          With us come back your dreams, travel the world and create beautiful
+          memories.
         </h2>
         <img
           src="https://cdn.pixabay.com/photo/2016/09/16/14/11/frogs-1674110_960_720.jpg"
@@ -40,10 +40,10 @@ const AboutPage = () => {
         </p>
       </div>
       <p className="w-full text-4xl leading-normal text-center font-bold border-b-4 border-sky-500 my-20">
-        Contamos con 15 años de experiencia
+        We have 15 years of experience
       </p>
       <div className="my-20 w-full text-center">
-        <h3 className="text-3xl font-semibold mb-6">Nuestros socios</h3>
+        <h3 className="text-3xl font-semibold mb-8">Our Partners</h3>
         <ul className="text-lg flex flex-col md:flex-row justify-center items-center gap-x-10 gap-y-5">
           <li>Partner 1</li>
           <li>Partner 2</li>
