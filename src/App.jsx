@@ -9,7 +9,7 @@ import ContactInfo from "./components/ContactInfo";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/travel-example-react">
       <NavBar />
       <main className="font-[Poppins] max-w-7xl mx-auto py-10 px-2 md:px-0">
         <Routes>
